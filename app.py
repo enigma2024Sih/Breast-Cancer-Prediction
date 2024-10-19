@@ -235,15 +235,14 @@ def main():
 
     with st.sidebar:
         st.title("Contact")
-        st.markdown("### Developed by:")
-        st.markdown("**[Your Name]**")
-        st.markdown("#### Connect with me:")
-        st.markdown("[GitHub](https://github.com/yourusername)")
-        st.markdown("[LinkedIn](https://www.linkedin.com/in/yourusername/)")
-        st.markdown("[Twitter](https://twitter.com/yourusername)")
-        st.markdown("---")
-        st.markdown("**Email me at:**")
-        st.markdown("<a href='mailto:youremail@example.com'>youremail@example.com</a>", unsafe_allow_html=True)
+        st.markdown("### Developed by Group-3:")
+        st.markdown("**SUBHAM  TARASIA**" )
+        st.markdown("**SUBHASIS  DEY**" )
+        st.markdown("**ARIJIT  DEY**" )
+        st.markdown("**ADNAN AFZAL SIDDIQUI**" )
+        st.markdown("**ARCHITA  MISHRA**" )
+        st.markdown("**ANUJA  MISHRA**" )
+
 
 
 if __name__ == "__main__":
