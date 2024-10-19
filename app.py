@@ -234,7 +234,7 @@ def main():
         add_predictions(input_data)
 
     with st.sidebar:
-        st.title("Contact")
+        st.title("Students Name")
         st.markdown("### Developed by Group-3:")
         st.markdown("**SUBHAM  TARASIA**" )
         st.markdown("**SUBHASIS  DEY**" )
