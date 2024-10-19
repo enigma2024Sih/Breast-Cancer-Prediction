@@ -1,0 +1,102 @@
+/* General layout adjustments */
+body {
+    background-color: #f8f9fa; /* Light background for a modern look */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Clean, modern font */
+    color: #212529; /* Dark color for text for better readability */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Header Styling */
+h1, h2, h3, h4, h5, h6 {
+    color: #6d757c; /* Darker grey for headers */
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+/* Sidebar Styling */
+.sidebar .sidebar-content {
+    background-color: #ffffff; /* Clean white sidebar */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Inputs in the sidebar */
+.stSlider {
+    color: #788087; /* Modern grey */
+}
+
+.slider label {
+    font-weight: 500;
+}
+
+/* Buttons */
+.stButton>button {
+    background-color: #17a2b8; /* Modern teal button */
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 30px; /* Rounded buttons */
+    border: none;
+    box-shadow: 0px 5px 10px rgba(23, 162, 184, 0.2); /* Soft shadow for buttons */
+    transition: background-color 0.3s ease;
+}
+
+.stButton>button:hover {
+    background-color: #138496; /* Darker teal on hover */
+    box-shadow: 0px 5px 10px rgba(19, 132, 150, 0.2); /* Adjust shadow on hover */
+}
+
+/* Chart container */
+.plotly-graph-div {
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Text Styling */
+.stMarkdown, .stText {
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+/* Benign / Malicious Diagnosis Styling */
+.diagnosis {
+    font-size: 24px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    display: inline-block;
+    color: white;
+}
+
+.diagnosis.benign {
+    background-color: #28a745; /* Green for benign */
+}
+
+.diagnosis.malicious {
+    background-color: #dc3545; /* Red for malicious */
+}
+
+/* Footer text */
+.stFooter {
+    font-size: 14px;
+    color: #6c757d;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+
+/* Container with soft padding */
+.stContainer {
+    padding: 20px;
+}
+
+/* Column styling for improved layout */
+.stColumn {
+    padding: 10px;
+    margin-bottom: 20px;
+}
