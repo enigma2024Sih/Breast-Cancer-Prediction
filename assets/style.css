@@ -6,8 +6,8 @@ body {
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
 }
-#MainMenu {
-    visibility: hidden;
+.stAppToolbar{
+    display: none;
 }
 /* Header Styling */
 h1, h2, h3, h4, h5, h6 {
