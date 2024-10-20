@@ -6,7 +6,7 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.express as px
-
+from PIL import Image 
 
 def get_clean_data():
     data = pd.read_csv("data/data.csv")
