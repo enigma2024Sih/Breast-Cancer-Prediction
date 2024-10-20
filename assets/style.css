@@ -9,6 +9,9 @@ body {
 .stAppToolbar{
     display: none;
 }
+._link_1yi6l_10{
+    display: none;
+}
 /* Header Styling */
 h1, h2, h3, h4, h5, h6 {
     color: #6d757c; /* Darker grey for headers */
